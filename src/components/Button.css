@@ -1,4 +1,4 @@
-.btn-medium {
+.button {
   background-color: var(--secondary-color);
   border-style: none;
   font-weight: 600;
@@ -9,25 +9,15 @@
   color: var(--offwhite);
 }
 
-.btn-medium:hover {
+.button:hover {
   background-color: var(--offwhite);
   color: var(--secondary-color);
   transition: ease-in-out 300ms;
+  cursor: pointer;
 }
 
-.btn-large {
-  background-color: var(--secondary-color);
-  font-weight: 600;
-  border-style: none;
-  border-radius: 2px;
+.button.large {
   font-size: 16px;
-  width: fit-content;
   height: 40px;
-  color: var(--offwhite);
 }
 
-.btn-large:hover {
-  background-color: var(--offwhite);
-  color: var(--secondary-color);
-  transition: ease-in-out 300ms;
-}
