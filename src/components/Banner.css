@@ -1,12 +1,12 @@
 .banner__container {
-    background-image: url('../images/hero-bg.png');
+    background-image: url('../images/djs.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: var(--offwhite);
-    min-height: 300px;
+    min-height: 400px;
     border-radius: 2px;
 }
 
