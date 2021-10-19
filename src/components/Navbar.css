@@ -1,20 +1,19 @@
-:root {
-  --primary-color: rgb(37, 37, 37);
-  --secondary-color: rgb(255, 0, 0);
-  --offwhite: rgb(250, 250, 250);
-}
-
-nav {
-  background-color: var(--primary-color);
+.navbar {
+  background-color: transparent;
   color: var(--offwhite);
   display: flex;
   flex-direction: row;
   justify-content: center;
   height: 70px;
+  position: fixed;
+  width: 100%;
+  transition: ease-in 100ms;
 }
 
-.nav__scrolling {
+.navbar.active {
   background-color: var(--primary-color);
+  box-shadow: rgb(0, 0, 0);
+  transition: ease-in 100ms;
 }
 
 .navMenu {
@@ -23,7 +22,7 @@ nav {
 
 .showMenuBtn {
   display: none;
-  background-color: var(--primary-color);
+  background-color: transparent;
   border-style: none;
   color: var(--offwhite);
   font-size: 30px;
@@ -39,7 +38,7 @@ nav a {
   text-decoration: none;
   padding: 20px;
   color: var(--offwhite);
-  font-weight: 400;
+  font-weight: 600;
 }
 
 nav a:hover {
@@ -56,7 +55,7 @@ nav img {
 }
 
 @media screen and (max-width: 650px) {
-  nav {
+  .navbar {
     justify-content: space-between;
   }
   .navMenu {
