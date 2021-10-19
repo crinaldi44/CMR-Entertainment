@@ -7,7 +7,6 @@ const Header = (props) => {
         <div className="banner__container">
             <h2>{props.title}</h2>
             <p>{props.details}</p>
-            <Button text="GET A QUOTE" />
         </div>
     )
 }

@@ -6,8 +6,7 @@
     flex-direction: column;
     justify-content: center;
     color: var(--offwhite);
-    max-width: 300px;
-    min-height: 400px;
+    min-height: 300px;
     border-radius: 2px;
 }
 
@@ -17,4 +16,7 @@
 
 .banner__container p {
     margin-bottom: 50px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
