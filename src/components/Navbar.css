@@ -8,12 +8,13 @@
   position: fixed;
   width: 100%;
   transition: ease-in 100ms;
+  z-index: 1;
 }
 
 .navbar.active {
   background-color: var(--primary-color);
   box-shadow: rgb(0, 0, 0);
-  transition: ease-in 100ms;
+  padding-top: 10px;
 }
 
 .navMenu {

@@ -15,6 +15,7 @@ const ServicesCatalogue = () => {
                 <div className="services__container__sub__description">
                     <h2>Customize your event.</h2>
                     <p>We can accommodate any event! Mix and match services to make your event complete!</p>
+                    <Button text="GET A FREE QUOTE"/>
                 </div>
                 <div className="services__container__catalogue">
                     <Card title="DISC JOCKEY" subtitle="We provide the music and the energy all in one. We are experienced in all genres of music and will tailor our selection to yourself and your guests." image={Photo}/>

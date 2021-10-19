@@ -8,7 +8,7 @@ const Button = (props) => {
     const large = props.large;
 
     return (
-        <button className={large ? 'btn-large' : 'btn-medium'}>
+        <button className={large ? 'button large' : 'button'}>
             {props.text}
         </button>
     )
