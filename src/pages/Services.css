@@ -4,16 +4,3 @@
 .services__container p {
 
 }
-
-.services__container__catalogue {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    max-width: 700px;
-}
-
-.services__container__sub {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
