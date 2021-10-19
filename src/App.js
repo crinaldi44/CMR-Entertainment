@@ -1,6 +1,5 @@
 import './App.css';
 import Navbar from './components/Navbar'
-import Announcement from './components/Announcement';
 import Footer from './components/Footer'
 import Index from './pages/Index';
 import About from './pages/About';
@@ -12,7 +11,6 @@ function App() {
     <div className="App">
       <Router>
       <Navbar />
-      <Announcement content="Website currently in test mode. Please contact with any inquiries!"/>
         <Switch>
           <Route path="/" exact>
             <Index />

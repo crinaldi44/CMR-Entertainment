@@ -1,3 +1,10 @@
+:root {
+  --primary-color: rgb(37, 37, 37);
+  --secondary-color: rgb(206, 97, 14);
+  --offwhite: rgb(245, 245, 245);
+  --offgrey: rgb(153, 153, 153);
+}
+
 .App {
   text-align: center;
   font-family: "Montserrat", sans-serif;

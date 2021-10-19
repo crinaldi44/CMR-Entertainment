@@ -1,7 +1,7 @@
 .btn-medium {
   background-color: var(--secondary-color);
-  font-weight: 600;
   border-style: none;
+  font-weight: 600;
   border-radius: 2px;
   font-size: 14px;
   width: fit-content;
