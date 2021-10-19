@@ -30,7 +30,7 @@ const Navbar = () => {
                         <Link to="/services">Services</Link>
                         <Link to="/">Testimonials</Link>
                         <Link to="/">Contact Us</Link>
-                        <Button text='CLIENT LOGIN' />
+                        <a href='http://www.cmrentertainmentplanning.com'><Button text='CLIENT LOGIN' /></a>
                     </ul>
                     <button className="showMenuBtn"><i className="fa fa-bars"></i></button>
             </nav>
