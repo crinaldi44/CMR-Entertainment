@@ -1,0 +1,15 @@
+.announcement__container {
+  background-color: gold;
+  text-align: center;
+  min-height: 40px;
+}
+
+.announcement__close_btn {
+  border-style: none;
+  background-color: transparent;
+  font-size: 16px;
+}
+
+.announcement__close_btn:hover {
+  color: rgb(245, 245, 245);
+}

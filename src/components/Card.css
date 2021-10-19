@@ -1,0 +1,35 @@
+:root {
+  --primary-color: rgb(37, 37, 37);
+  --secondary-color: rgb(255, 0, 0);
+  --offwhite: rgb(245, 245, 245);
+  --offgrey: rgb(153, 153, 153);
+}
+
+.card__container {
+  border-radius: 2px;
+  text-align: left;
+  height: fit-content;
+  color: var(--primary-color);
+  padding-inline: 10px;
+  max-width: 200px;
+}
+
+.card__heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__container h3 {
+  margin: 0;
+}
+
+.card__container p {
+  color: rgb(153, 153, 153);
+}
+
+.card__container img {
+  width: 64px;
+  height: 64px;
+}

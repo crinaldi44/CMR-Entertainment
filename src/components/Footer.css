@@ -1,0 +1,34 @@
+:root {
+  --primary-color: rgb(37, 37, 37);
+  --secondary-color: rgb(255, 0, 0);
+  --offwhite: rgb(250, 250, 250);
+}
+
+.footer__container {
+  background-color: var(--primary-color);
+  height: fit-content;
+  padding-top: 20px;
+  color: var(--offwhite);
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 90%;
+}
+
+.footer__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 90%;
+}
+
+.footer__menu ul {
+  line-height: 25px;
+  list-style: none;
+}
+
+@media screen and (max-width: 600px) {
+  .footer__menu {
+    flex-direction: column;
+    font-size: 12px;
+  }
+}
