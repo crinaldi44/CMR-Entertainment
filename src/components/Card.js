@@ -10,11 +10,9 @@ class Card extends React.Component {
 
     render() {
         return (
-            <div class="card__container">
-                <div className="card__heading">
-                    <h3>{this.props.title}</h3>
-                    <img src={this.props.imagePath}/>
-                </div>
+            <div className="card__container">
+                <img src={this.props.imagePath}/>
+                <h3>{this.props.title}</h3>
                 <p>{this.props.subtitle}</p>
                 <p>{this.props.description}</p>
             </div>

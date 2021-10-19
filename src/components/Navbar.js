@@ -3,6 +3,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import './Navbar.css'
 import Button from './Button'
+import Header from './Banner'
 
 const Navbar = () => {
     return (
@@ -12,7 +13,7 @@ const Navbar = () => {
                     <ul className="navMenu">
                         <Link to="/">Home</Link>
                         <Link to="/about">About Us</Link>
-                        <Link to="/about">Services</Link>
+                        <Link to="/services">Services</Link>
                         <Link to="/">Testimonials</Link>
                         <Link to="/">Contact Us</Link>
                         <Button text='CLIENT LOGIN' />
@@ -21,6 +22,13 @@ const Navbar = () => {
             </nav>
         </>
     )
+}
+
+const toggleScrolling = () => {
+    window.addEventListener('scroll', () => {
+        let nav = document.querySelector('header')
+        nav.classList.toggle('nav__scrolling')
+    })
 }
 
 export default Navbar

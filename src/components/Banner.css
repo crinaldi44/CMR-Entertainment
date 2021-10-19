@@ -1,0 +1,20 @@
+.banner__container {
+    background-image: url('../images/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--offwhite);
+    max-width: 300px;
+    min-height: 400px;
+    border-radius: 2px;
+}
+
+.banner__container h2 {
+    margin: 0;
+}
+
+.banner__container p {
+    margin-bottom: 50px;
+}

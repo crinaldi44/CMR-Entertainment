@@ -6,10 +6,12 @@
   text-decoration-color: rgb(255, 0, 0);
   text-underline-offset: 10px;
   color: var(--primary-color);
+  text-align: left;
 }
 
 .about__container p {
-  max-width: 1000px;
+  max-width: 600px;
+  text-align: left;
 }
 
 .about__container img {

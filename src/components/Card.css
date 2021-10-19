@@ -7,18 +7,18 @@
 
 .card__container {
   border-radius: 2px;
-  text-align: left;
+  text-align: center;
   height: fit-content;
   color: var(--primary-color);
   padding-inline: 10px;
   max-width: 200px;
+  font-size: 80%;
+  padding-bottom: 50px;
+  padding-right: 30px;
 }
 
-.card__heading {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+.card__container:hover {
+  animation: zoomIn 2s;
 }
 
 .card__container h3 {
@@ -27,9 +27,21 @@
 
 .card__container p {
   color: rgb(153, 153, 153);
+  margin: 0;
 }
 
 .card__container img {
   width: 64px;
   height: 64px;
+}
+
+
+@keyframes zoomIn {
+  from {
+    transform: scale(1.05);
+  }
+  to {
+
+  }
+  
 }

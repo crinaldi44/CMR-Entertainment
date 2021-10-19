@@ -3,7 +3,8 @@ import './Hero.css'
 import Button from '../components/Button'
 
 //Represents a hero. Includes two state props that will represent the hero image as well as the background image.
-const Hero = () => {
+const Hero = (props) => {
+
     return (
         <div className="hero-container">
             <div className="hero-text">
