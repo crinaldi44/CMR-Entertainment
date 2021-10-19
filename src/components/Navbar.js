@@ -24,11 +24,10 @@ const Navbar = () => {
     )
 }
 
-const toggleScrolling = () => {
-    window.addEventListener('scroll', () => {
-        let nav = document.querySelector('header')
-        nav.classList.toggle('nav__scrolling')
-    })
+const toggleBackground = () => {
+    console.log(window.scrollY)
 }
+
+window.addEventListener('scroll', toggleBackground())
 
 export default Navbar
