@@ -7,10 +7,18 @@
 .welcome__text {
     text-align: left;
     max-width: 400px;
+    padding-top: 40px;
 }
 
-.welcome__video {
-    width: 300px;
+.welcome__subsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+
+.welcome__image {
+    width: 500px;
     height: 300px;
 }
 
