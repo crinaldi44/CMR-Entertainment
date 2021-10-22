@@ -3,11 +3,13 @@ import './Services.css'
 import DJ from '../images/djs.jpeg'
 import Photographers from '../images/photographers.jpeg'
 import Videographers from '../images/videographers.jpeg'
+import ServicesCatalogue from '../components/ServicesCatalogue'
 
 const Services = () => {
     return (
         <div className="services__container">
-            <h1>OUR SERVICES</h1>
+            <ServicesCatalogue />
+            {/* <h1>OUR SERVICES</h1>
             <div className="services__subcontainer">
                 <div className="service__info">
                 <img src={DJ} alt="DJ"/>
@@ -30,7 +32,7 @@ const Services = () => {
                         <p>The music makes the moment - and with over 20 years of experience, you can expect the tone to be just right throughout the duration of your event.</p>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

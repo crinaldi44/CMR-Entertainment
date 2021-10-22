@@ -1,20 +1,19 @@
 .services__container__sub {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
     margin-top: 30px;
     animation: slideIn 1s;
     padding: 20px;
     min-height: 400px;
-    /* background-color: red; */
 }
 
 .services__container__sub__description {
     font-size: 150%;
     max-width: 400px;
-    text-align: left;
+    text-align: center;
     margin-right: 5%;
     margin-bottom: 10%;
-    /* background-color: palegreen; */
 }
 
 .services__container__catalogue {
@@ -23,7 +22,6 @@
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    /* background-color: violet; */
 }
 
 .services__container__sub__description p {

@@ -9,7 +9,7 @@ const Welcome = () => {
                 <div className="welcome__text">
                     <h3>Entertainment for all</h3>            
                     <h2>One of South Jersey's top-rated entertainment providers.</h2>
-                    <p>CMREntertainment.com. We are a full service entertainment company serving the Tri-State area and beyond. As owner and president of of CMR Entertainment, together with our staff of very experienced and talented entertainers we bring with us many years of experience in the entertainment industry.</p>
+                    <p>We are a full service entertainment company serving the Tri-State area and beyond. As owner and president of of CMR Entertainment, together with our staff of very experienced and talented entertainers we bring with us many years of experience in the entertainment industry.</p>
                 </div>
                 <img src={Photo1} className="welcome__image"/>
             </div>
