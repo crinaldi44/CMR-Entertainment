@@ -1,6 +1,6 @@
 import React from 'react'
 import Hero from '../components/Hero'
-import Services from '../components/Services'
+import ServicesCatalogue from '../components/ServicesCatalogue'
 import Welcome from '../components/Welcome'
 
 const Index = () => {
@@ -9,7 +9,7 @@ const Index = () => {
         <div>
             <Hero />
             <Welcome />
-            <Services/>
+            <ServicesCatalogue />
         </div>
     )
 }
