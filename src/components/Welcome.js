@@ -1,6 +1,8 @@
 import React from 'react'
 import './Welcome.css'
-import Photo1 from '../images/welcome/photo1.jpg'
+import Photo1 from '../images/welcome/photo1.png'
+import Photo2 from '../images/welcome/photo2.png'
+import Photo3 from '../images/welcome/photo3.png'
 
 const Welcome = () => {
     return (
@@ -14,7 +16,7 @@ const Welcome = () => {
                 <img src={Photo1} className="welcome__image"/>
             </div>
             <div className="welcome__subsection">
-            <img src={Photo1} className="welcome__image"/>
+            <img src={Photo2} className="welcome__image"/>
                 <div className="welcome__text">
                     <h3>Any event. Any time.</h3>
                     <h2>Weddings, parties, ceremonies and more.</h2>
@@ -27,7 +29,7 @@ const Welcome = () => {
                     <h2>One-stop shop for all entertainment needs</h2>
                     <p>We provide a wide range of services including wedding planning, DJ, photography, green screen, and more! If there is a missing piece to your event that you'd like for us to fulfill, additional services are available upon request and we will provide or connect you with the right vendor.</p>
                 </div>
-                <img src={Photo1} className="welcome__image"/>
+                <img src={Photo3} className="welcome__image"/>
             </div>
         </div>
     )

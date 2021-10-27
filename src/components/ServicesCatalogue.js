@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Card from '../components/Card'
 import Photo from '../images/services/dj.jpeg'
 import Photo1 from '../images/services/photo-booth.jpeg'
@@ -9,9 +9,13 @@ import Photo5 from '../images/services/live-video.jpeg'
 import './ServicesCatalogue.css'
 import Button from './Button'
 
+//867
 const ServicesCatalogue = () => {
+
+    const [animated, setAnimated] = useState(false)
+
     return (
-        <div className="services__container__sub">
+        <div id="container" className="services__container__sub">
                 <div className="services__container__sub__description">
                     <h2>Customize your event.</h2>
                     <p>We can accommodate any event! Mix and match services to make your event complete!</p>

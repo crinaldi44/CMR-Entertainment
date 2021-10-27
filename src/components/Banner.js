@@ -1,6 +1,5 @@
 import React from 'react'
 import './Banner.css'
-import Button from './Button'
 
 const Header = (props) => {
     return (
