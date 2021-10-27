@@ -10,8 +10,9 @@ import './ServicesCatalogue.css'
 import Button from './Button'
 
 const ServicesCatalogue = () => {
+
     return (
-        <div className="services__container__sub">
+        <div id="container" className="services__container__sub">
                 <div className="services__container__sub__description">
                     <h2>Customize your event.</h2>
                     <p>We can accommodate any event! Mix and match services to make your event complete!</p>

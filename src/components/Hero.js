@@ -4,7 +4,7 @@ import Button from '../components/Button'
 import { Link } from 'react-router-dom'
 
 //Represents a hero. Includes two state props that will represent the hero image as well as the background image.
-const Hero = (props) => {
+const Hero = () => {
 
     return (
         <div className="hero-container">

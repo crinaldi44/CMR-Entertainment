@@ -1,6 +1,6 @@
 .services__container__sub {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     margin-top: 30px;
     animation: slideIn 1s;
@@ -10,7 +10,7 @@
 
 .services__container__sub__description {
     font-size: 130%;
-    text-align: center;
+    text-align: left;
     margin-bottom: 40px;
 }
 
@@ -20,6 +20,7 @@
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
+    font-size: 90%;
 }
 
 .services__container__sub__description p {
