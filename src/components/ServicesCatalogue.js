@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import Card from '../components/Card'
 import Photo from '../images/services/dj.jpeg'
 import Photo1 from '../images/services/photo-booth.jpeg'
@@ -9,10 +9,7 @@ import Photo5 from '../images/services/live-video.jpeg'
 import './ServicesCatalogue.css'
 import Button from './Button'
 
-//867
 const ServicesCatalogue = () => {
-
-    const [animated, setAnimated] = useState(false)
 
     return (
         <div id="container" className="services__container__sub">
