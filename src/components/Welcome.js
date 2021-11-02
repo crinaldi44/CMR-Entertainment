@@ -21,7 +21,7 @@ const Welcome = () => {
                     <div className="welcome__text">
                         <h3>Any event. Any time.</h3>
                         <h2>Weddings, parties, ceremonies and more.</h2>
-                        <p>Our Staff's experience includes working in Philadelphia radio, DJing in the area's hottest night clubs, as well as countless numbers of Weddings, Socials, Corporate Events, Bar and Bat Mitzvahs, Sweet 16's, Graduation parties, etc. We pride ourselves at delivering the highest level of quality entertainment, videography, photo booths and other services available.</p>
+                        <p>Our staff's experience includes working in Philadelphia radio, DJing in the area's hottest night clubs, as well as countless numbers of Weddings, Socials, Corporate Events, Bar and Bat Mitzvahs, Sweet 16's, Graduation parties, etc. We pride ourselves on delivering the highest level of quality entertainment, videography, photo booths and other services available.</p>
                     </div>
             </div>
             <div className="welcome__subsection">
