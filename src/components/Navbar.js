@@ -9,6 +9,9 @@ const Navbar = () => {
     //Represents whether we are using the solid navbar state.
     const [navSolid, setNavSolid] = useState(false);
 
+    //In responsive mode, represents whether the navmenu is shown or hidden.
+    const [showNav, setShowNav] = useState(false);
+
     //Toggles a background when we scroll past a certain amount.
     const toggleBackground = () => {
         if (window.scrollY >= 80) {
@@ -17,14 +20,20 @@ const Navbar = () => {
             setNavSolid(false);
         }
     }
-    
+
+    //In responsive mode, toggles the state of the navmenu from shown to hidden.
+    const toggleShowNavMenu = () => {
+        setShowNav(!showNav)
+        console.log(`Nav: ${showNav}`)
+    }
+
     window.addEventListener('scroll', toggleBackground)
 
     return (
         <>
             <nav className={navSolid ? 'navbar active' : 'navbar'}>
                     <Link to="/" className="logo"><img src={logo} alt="Logo" /></Link>
-                    <ul className="navMenu">
+                    <ul className={!showNav ? 'navMenu' : 'navMenu responsive'}>
                         <Link to="/">Home</Link>
                         <Link to="/about">About Us</Link>
                         <Link to="/services">Services</Link>
@@ -32,7 +41,7 @@ const Navbar = () => {
                         <Link to="/">Contact Us</Link>
                         <a href='http://www.cmrentertainmentplanning.com/'><Button text='CLIENT LOGIN'/></a>
                     </ul>
-                    <button className="showMenuBtn"><i className="fa fa-bars"></i></button>
+                    <button className="showMenuBtn" onClick={toggleShowNavMenu}><i className={showNav ? "fa fa-close" : "fa fa-bars"}></i></button>
             </nav>
         </>
     )
