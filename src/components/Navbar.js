@@ -33,7 +33,7 @@ const Navbar = () => {
         <>
             <nav className={navSolid ? 'navbar active' : 'navbar'}>
                     <Link to="/" className="logo"><img src={logo} alt="Logo" /></Link>
-                    <ul className={!showNav ? 'navMenu' : 'navMenu responsive'}>
+                    <ul className={!showNav ? 'navMenu' : 'navMenu responsive'} onClick={toggleShowNavMenu}>
                         <Link to="/">Home</Link>
                         <Link to="/about">About Us</Link>
                         <Link to="/services">Services</Link>
