@@ -9,7 +9,6 @@ const Index = () => {
         <div>
             <Hero />
             <Welcome />
-            <ServicesCatalogue />
         </div>
     )
 }

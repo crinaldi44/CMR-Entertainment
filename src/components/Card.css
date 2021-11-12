@@ -18,7 +18,7 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0, 0.5);
+  /* box-shadow: 0px 0px 10px 0px rgba(0,0,0, 0.5); */
 }
 
 .card__container h3 {
@@ -26,7 +26,6 @@
 }
 
 .card__container p {
-  color: rgb(153, 153, 153);
   margin: 0;
 }
 
