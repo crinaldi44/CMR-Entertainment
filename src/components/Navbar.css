@@ -17,9 +17,6 @@
   padding-top: 10px;
 }
 
-.navMenu {
-}
-
 .showMenuBtn {
   display: none;
   background-color: transparent;
@@ -47,7 +44,7 @@ nav a:hover {
 }
 
 .logo {
-  /* margin-right: 50px; */
+  align-self: center;
 }
 
 nav img {
@@ -60,6 +57,10 @@ nav img {
   .navbar {
     justify-content: space-between;
     height: auto;
+  }
+
+  .logo {
+    align-self: auto;
   }
 
   .navMenu {

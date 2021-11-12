@@ -24,6 +24,9 @@ const Navbar = () => {
     //In responsive mode, toggles the state of the navmenu from shown to hidden.
     const toggleShowNavMenu = () => {
         setShowNav(!showNav)
+        if (showNav === false && window.scrollX < 80) {
+            setNavSolid(true);
+        }
         console.log(`Nav: ${showNav}`)
     }
 

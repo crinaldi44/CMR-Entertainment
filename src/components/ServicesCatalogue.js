@@ -8,15 +8,16 @@ import Photo4 from '../images/services/lighting.jpeg'
 import Photo5 from '../images/services/live-video.jpeg'
 import './ServicesCatalogue.css'
 import Button from './Button'
+import { Link } from 'react-router-dom'
 
 const ServicesCatalogue = () => {
 
     return (
         <div id="container" className="services__container__sub">
                 <div className="services__container__sub__description">
-                    <h2>Customize your event.</h2>
-                    <p>We can accommodate any event! Mix and match services to make your event complete!</p>
-                    <Button text="LEARN MORE"/>
+                    <h2>What We Do</h2>
+                    <p>We provide a host of professional entertainment services and can accommodate any event! Mix and match services to make your event complete!</p>
+                    <Link to='/services/'><Button text="LEARN MORE"/></Link>
                 </div>
                 <div className="services__container__catalogue">
                     <Card title="DISC JOCKEY" subtitle="We provide the music and the energy all in one. We are experienced in all genres of music and will tailor our selection to yourself and your guests." image={Photo}/>
