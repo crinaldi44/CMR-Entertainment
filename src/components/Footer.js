@@ -10,10 +10,10 @@ const Footer = () => {
                         <b>SOCIAL</b>
                         <br/>Follow us on social media!
                         <div className='footer__menu social'>
-                            <li><i className='fa fa-instagram'/></li>
-                            <li><i className='fa fa-facebook'/></li>
-                            <li><i className='fa fa-twitter'/></li>
-                            <li><i className='fa fa-linkedin'/></li>
+                            <li><a href="#"><i className='fa fa-instagram'/></a></li>
+                            <li><a href="https://www.facebook.com/cmrdjs"><i className='fa fa-facebook'/></a></li>
+                            <li><a href="#"><i className='fa fa-twitter'/></a></li>
+                            <li><a href="#"><i className='fa fa-linkedin'/></a></li>
                         </div>
                     </ul>
                     <ul>
@@ -28,7 +28,7 @@ const Footer = () => {
                         <li>LICENSE</li>
                     </ul>
                 </div>
-                <p>CMR Entertainment ©2021</p>
+                <p>Designed and built exclusively for CMR Entertainment ©2021</p>
             </div>
     )
 }

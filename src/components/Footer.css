@@ -26,6 +26,14 @@
   list-style: none;
 }
 
+.footer__menu a {
+  color: var(--offgrey);
+}
+
+.footer__menu a:hover {
+  color: var(--secondary-color);
+}
+
 @media screen and (max-width: 600px) {
   .footer__menu {
     flex-direction: column;
