@@ -9,8 +9,14 @@ import Photo5 from '../../images/services/live-video.png'
 import './ServicesCatalogue.css'
 import Button from '../Button'
 import { Link } from 'react-router-dom'
+import Wedding from '../images/services/wedding-example.png'
 
 const ServicesCatalogue = () => {
+
+    const imgStyle = {
+        width: `60%`,
+        height: '300px',
+    }
 
     return (
         <div id="container" className="services__container__sub">
