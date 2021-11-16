@@ -24,6 +24,7 @@
 .footer__menu ul {
   line-height: 25px;
   list-style: none;
+  padding: 0;
 }
 
 .footer__menu a {

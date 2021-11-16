@@ -46,3 +46,53 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes slideup {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  } to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+      opacity: 0;
+      transform: translateX(30px);
+  }
+  to {
+      opacity: 1;
+  }
+  
+}
+
+@keyframes slideUpAndGrow {
+  from {
+    opacity: 0;
+    scale: 1.02;
+  } to {
+    opacity: 1;
+  }
+  
+}
+
+@keyframes blur {
+  from {
+    filter: blur(5px);
+    opacity: 0;
+  } to {
+    opacity: 1;
+  }
+  
+}

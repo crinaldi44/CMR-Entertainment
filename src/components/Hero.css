@@ -29,13 +29,3 @@
   text-shadow: 1px 1px black;
   font-weight: 300;
 }
-
-@keyframes slideup {
-  from {
-    opacity: 0;
-    transform: translateY(50px);
-  }
-  to {
-    opacity: 1;
-  }
-}

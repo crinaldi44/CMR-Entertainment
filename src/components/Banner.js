@@ -10,8 +10,10 @@ const Header = (props) => {
 
     return (
         <div className="banner__container" style={backgroundStyle}>
-            <h2>{props.title}</h2>
-            <p>{props.details}</p>
+            <div className='banner__effects'>
+                <h2>{props.title}</h2>
+                <p>{props.details}</p>
+            </div>
         </div>
     )
 }
