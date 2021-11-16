@@ -7,9 +7,6 @@ import Photo3 from '../../images/services/videography.png'
 import Photo4 from '../../images/services/lighting.png'
 import Photo5 from '../../images/services/live-video.png'
 import './ServicesCatalogue.css'
-import Button from '../Button'
-import { Link } from 'react-router-dom'
-import Wedding from '../images/services/wedding-example.png'
 
 const ServicesCatalogue = () => {
 
@@ -17,6 +14,8 @@ const ServicesCatalogue = () => {
         width: `60%`,
         height: '300px',
     }
+
+    const comingSoon = '<h1>Coming Soon</h1>'
 
     return (
         <div id="container" className="services__container__sub">
