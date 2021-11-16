@@ -1,6 +1,6 @@
 import React from 'react'
 import './Banner.css'
-import Background from '../images/wedding-photo.png'
+import Background from '../images/djs.jpeg';
 
 const Header = (props) => {
 
