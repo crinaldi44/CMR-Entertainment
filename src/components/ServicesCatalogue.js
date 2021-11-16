@@ -9,16 +9,17 @@ import Photo5 from '../images/services/live-video.jpeg'
 import './ServicesCatalogue.css'
 import Button from './Button'
 import { Link } from 'react-router-dom'
+import Wedding from '../images/services/wedding-example.png'
 
 const ServicesCatalogue = () => {
 
+    const imgStyle = {
+        width: `60%`,
+        height: '300px',
+    }
+
     return (
         <div id="container" className="services__container__sub">
-                <div className="services__container__sub__description">
-                    <h2>What We Do</h2>
-                    <p>We provide a host of professional entertainment services and can accommodate any event! Mix and match services to make your event complete!</p>
-                    <Link to='/services/'><Button text="LEARN MORE"/></Link>
-                </div>
                 <div className="services__container__catalogue">
                     <Card title="DISC JOCKEY" subtitle="We provide the music and the energy all in one. We are experienced in all genres of music and will tailor our selection to yourself and your guests." image={Photo}/>
                     <Card title="PHOTO BOOTH" subtitle="Receive snapshots for your guests and a digital photo album for yourself. You'll get the choice between boardwalk and open-style booths."image={Photo1}/>
@@ -27,6 +28,12 @@ const ServicesCatalogue = () => {
                     <Card title="LIGHTING" subtitle="Set the mood and the tone for your event. Uplighting, stage-style lighting, dance-floor lighting and more." image={Photo4}/>
                     <Card title="LIVE VIDEO" subtitle="Stream your event live or exclusively to your virtual guests." image={Photo5}/>
                 </div>
+                <img src={Wedding} style={imgStyle}/>
+                {/* <div className="services__container__sub__description">
+                    <h2>What We Do</h2>
+                    <p>We provide a host of professional entertainment services and can accommodate any event! Mix and match services to make your event complete!</p>
+                    <Link to='/services/'><Button text="LEARN MORE"/></Link>
+                </div> */}
         </div>
     )
 }
