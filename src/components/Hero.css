@@ -15,7 +15,7 @@
   margin-top: auto;
   margin-bottom: auto;
   letter-spacing: 1px;
-  animation: slideup 2s;
+  animation: slideup 1s;
 }
 
 .hero-container h1 {
@@ -33,7 +33,7 @@
 @keyframes slideup {
   from {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(50px);
   }
   to {
     opacity: 1;
