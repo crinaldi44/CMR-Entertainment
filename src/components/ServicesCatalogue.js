@@ -25,7 +25,7 @@ const ServicesCatalogue = () => {
                 <div className="services__container__sub__description">
                     <h2>What We Do</h2>
                     <p>We provide a host of professional entertainment services and can accommodate any event! Mix and match services to make your event complete!</p>
-                    <Link to='/services/'><Button text="LEARN MORE"/></Link>
+                    <Link to='/services/'><Button text="GET A QUOTE"/></Link>
                 </div>
         </div>
     )
