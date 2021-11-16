@@ -8,12 +8,6 @@
     min-height: 400px;
 }
 
-.services__container__sub__description {
-    text-align: center;
-    margin-bottom: 40px;
-    align-self: center;
-}
-
 .services__container__catalogue {
     display: flex;
     flex-direction: row;
@@ -23,20 +17,6 @@
     width: 100%;
     max-width: 900px;
     font-size: 90%;
-}
-
-.services__container__sub__description p {
-    margin: 0;
-    max-width: 400px;
-    margin-bottom: 2%;
-}
-
-.services__container__sub__description h2 {
-    margin: 0, 0, 1px, 0;
-    text-decoration: underline;
-    text-decoration-color: var(--secondary-color);
-    text-decoration-thickness: 2px;
-    text-underline-offset: 3px;
 }
 
 @keyframes slideIn {
@@ -54,11 +34,6 @@
 
     .services__container__sub {
         flex-direction: column;
-    }
-
-    .services__container__sub__description {
-        text-align: center;
-        max-width: 100%;
     }
     
 }
