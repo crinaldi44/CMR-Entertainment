@@ -27,7 +27,6 @@ const Navbar = () => {
         if (showNav === false && window.scrollX < 80) {
             setNavSolid(true);
         }
-        console.log(`Nav: ${showNav}`)
     }
 
     window.addEventListener('scroll', toggleBackground)
