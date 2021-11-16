@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="footer__menu">
                     <ul>
                         <b>SOCIAL</b>
-                        <br/>Follow us on social media!
+                        <br/>Stay connected on social media!
                         <div className='footer__menu social'>
                             <li><a href="#"><i className='fa fa-instagram'/></a></li>
                             <li><a href="https://www.facebook.com/cmrdjs"><i className='fa fa-facebook'/></a></li>

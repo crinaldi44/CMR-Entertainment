@@ -27,7 +27,7 @@ const Welcome = () => {
             <div className="welcome__subsection">
                 <div className="welcome__text">
                     <h3>Entertainment. And beyond.</h3>            
-                    <h2>One-stop shop for all entertainment needs</h2>
+                    <h2>DJs, photo booths, photographers, videographers, and more.</h2>
                     <p>We provide a wide range of services including wedding planning, DJ, photography, green screen, and more! If there is a missing piece to your event that you'd like for us to fulfill, additional services are available upon request and we will provide or connect you with the right vendor.</p>
                 </div>
                 <img src={Photo3} className="welcome__image"/>
