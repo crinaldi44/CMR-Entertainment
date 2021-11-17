@@ -7,12 +7,13 @@
   width: fit-content;
   height: 30px;
   color: var(--offwhite);
+  transition: all 300ms ease-out;
 }
 
 .button:hover {
   background-color: var(--offwhite);
   color: var(--secondary-color);
-  transition: ease-in-out 300ms;
+  transition: all 300ms ease-in;
   cursor: pointer;
 }
 

@@ -36,11 +36,12 @@ nav a {
   padding: 20px;
   color: var(--offwhite);
   font-weight: 600;
+  transition: all 100ms ease-out;
 }
 
 nav a:hover {
   color: var(--secondary-color);
-  transition: ease-in-out 300ms;
+  transition: all ease-in-out 100ms;
 }
 
 .logo {
