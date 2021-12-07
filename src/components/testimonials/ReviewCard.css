@@ -3,10 +3,10 @@
 }
 
 .imageWrapper {
-    /*padding-inline: 10px;*/
     box-sizing: border-box;
     width: 150px;
     min-height: 130px;
+    height: 130px;
     overflow: hidden;
     margin-inline: 10px;
     border-radius: 1px;
