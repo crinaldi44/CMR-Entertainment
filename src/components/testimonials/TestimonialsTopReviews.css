@@ -1,0 +1,28 @@
+.topReviewsContainer {
+    background-color: whitesmoke;
+    min-width: 50%;
+    border-radius: 1px;
+    opacity: 0;
+    animation: slideup 500ms;
+    animation-fill-mode: forwards;
+    animation-delay: 300ms;
+}
+
+.topReviewsHeader {
+    letter-spacing: -1px;
+    padding-top: 10px;
+}
+
+.topReviewsFlex {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .topReviewsFlex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

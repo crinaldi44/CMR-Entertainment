@@ -1,12 +1,14 @@
 .button {
   background-color: var(--secondary-color);
   border-style: none;
-  font-weight: 600;
+  font-weight: bold;
   border-radius: 2px;
-  font-size: 14px;
+  font-size: 12px;
   width: fit-content;
   height: 30px;
   color: var(--offwhite);
+  letter-spacing: -0.5px;
+  padding-inline: 15px;
   transition: all 300ms ease-out;
 }
 
