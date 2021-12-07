@@ -2,12 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fc2a098-e63d-4c14-a06d-3c7772cf1907" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Welcome.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Welcome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/testimonials/ReviewCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/testimonials/TestimonialsHeader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/testimonials/TestimonialsHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/testimonials/TestimonialsTopReviews.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/testimonials/TestimonialsTopReviews.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Testimonials.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Testimonials.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,6 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -43,5 +63,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

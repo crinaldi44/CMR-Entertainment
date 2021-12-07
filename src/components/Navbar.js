@@ -39,7 +39,7 @@ const Navbar = () => {
                         <Link to="/">Home</Link>
                         <Link to="/about">About Us</Link>
                         <Link to="/services">Services</Link>
-                        <Link to="/">Testimonials</Link>
+                        <Link to="/testimonials">Testimonials</Link>
                         <Link to="/">Contact Us</Link>
                         <a href='http://www.cmrentertainmentplanning.com/'><Button text='CLIENT LOGIN'/></a>
                     </ul>
