@@ -1,0 +1,7 @@
+.testimonial__page__container {
+    background-image: url("../images/testimonials/header.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}

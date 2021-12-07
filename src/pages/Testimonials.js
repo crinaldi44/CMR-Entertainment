@@ -1,5 +1,6 @@
 import React from 'react'
 import TestimonialsHeader from '../components/testimonials/TestimonialsHeader'
+import './Testimonials.css'
 
 
 /**
@@ -11,7 +12,9 @@ import TestimonialsHeader from '../components/testimonials/TestimonialsHeader'
 const Testimonials = () => {
 
     return(
-        <TestimonialsHeader/>
+        <div className='testimonial__page__container'>
+            <TestimonialsHeader/>
+        </div>
     )
 }
 
