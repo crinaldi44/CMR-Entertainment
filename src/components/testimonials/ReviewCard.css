@@ -48,7 +48,3 @@ p.reviewCardName {
     font-weight: bold;
     background-color: var(--secondary-color);
 }
-
-.starRatings {
-    color: var(--secondary-color);
-}

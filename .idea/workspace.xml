@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fc2a098-e63d-4c14-a06d-3c7772cf1907" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/testimonials/reviews/Stars.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/testimonials/reviews/Stars.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/testimonials/ReviewCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testimonials/ReviewCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/testimonials/ReviewCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testimonials/ReviewCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/testimonials/reviews/ReviewEntry.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testimonials/reviews/ReviewEntry.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/testimonials/reviews/ReviewEntry.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testimonials/reviews/ReviewEntry.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/testimonials/reviews/Reviews.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testimonials/reviews/Reviews.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/testimonials/reviews/Reviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testimonials/reviews/Reviews.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Testimonials.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Testimonials.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Testimonials.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Testimonials.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/testimonials/header.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/testimonials/header.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +28,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="20s4arGQBMrjoMgoZKUwi5S3AXa" />
   <component name="ProjectViewState">
@@ -54,7 +65,7 @@
       <workItem from="1636820030016" duration="855000" />
       <workItem from="1636838788989" duration="8000" />
       <workItem from="1637083106717" duration="45000" />
-      <workItem from="1638905213750" duration="2164000" />
+      <workItem from="1638905213750" duration="9236000" />
     </task>
     <servers />
   </component>
