@@ -51,9 +51,14 @@ p.testimonial_header_text {
         text-align: center;
         max-width: 400px;
         align-self: center;
+        padding-bottom: 30px;
     }
 
     .testimonials_header_flex {
         flex-flow: column;
+    }
+
+    .testimonials_header_container {
+        min-height: 700px;
     }
 }
