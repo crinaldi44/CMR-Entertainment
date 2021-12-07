@@ -1,6 +1,6 @@
 .topReviewsContainer {
     background-color: whitesmoke;
-    min-width: 450px;
+    min-width: 50%;
     border-radius: 1px;
     opacity: 0;
     animation: slideup 500ms;
@@ -18,3 +18,11 @@
     justify-content: center;
 }
 
+@media only screen and (max-width: 900px) {
+
+    .topReviewsFlex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
