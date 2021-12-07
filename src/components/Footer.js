@@ -7,6 +7,11 @@ const Footer = () => {
             <div className="footer__container">
                 <div className="footer__menu">
                     <ul>
+                        <li><b>CONTACT</b></li>
+                        <li>Phone: (609) 209-3027</li>
+                        <li>Email: chrisr@cmrentertainment.com</li>
+                    </ul>
+                    <ul>
                         <b>SOCIAL</b>
                         <br/>Stay connected on social media!
                         <div className='footer__menu social'>
@@ -16,12 +21,7 @@ const Footer = () => {
                             <li><a href="#"><i className='fa fa-linkedin'/></a></li>
                         </div>
                     </ul>
-                    <ul>
-                        <li><b>CONTACT</b></li>
-                        <li>Phone: (609) 209-3027</li>
-                        <li>Email: chrisr@cmrentertainment.com</li>
-                    </ul>
-                    <ul>
+                    <ul className='footer__section3'>
                         <li><b>LEGAL</b></li>
                         <li>PRIVACY POLICY</li>
                         <li>TERMS & CONDITIONS</li>

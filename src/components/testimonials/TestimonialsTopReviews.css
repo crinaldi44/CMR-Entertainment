@@ -1,5 +1,5 @@
 .topReviewsContainer {
-    background-color: whitesmoke;
+    background-color: var(--offwhite);
     min-width: 50%;
     border-radius: 1px;
     opacity: 0;

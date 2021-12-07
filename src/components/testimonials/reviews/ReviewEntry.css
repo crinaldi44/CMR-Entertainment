@@ -1,7 +1,7 @@
 .review__entry__container {
     width: 1fr;
     min-height: 170px;
-    background-color: var(--offwhite);
+    background-color: #F4F4F4;
 }
 
 .review__top__section {

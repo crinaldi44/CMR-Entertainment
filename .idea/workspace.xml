@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fc2a098-e63d-4c14-a06d-3c7772cf1907" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/testimonials/reviews/Stars.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/testimonials/reviews/Stars.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/testimonials/ReviewCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testimonials/ReviewCard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/testimonials/ReviewCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testimonials/ReviewCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Welcome.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Welcome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/testimonials/TestimonialsTopReviews.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testimonials/TestimonialsTopReviews.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/testimonials/reviews/ReviewEntry.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testimonials/reviews/ReviewEntry.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/testimonials/reviews/ReviewEntry.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testimonials/reviews/ReviewEntry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/testimonials/reviews/Reviews.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testimonials/reviews/Reviews.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/testimonials/reviews/Reviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testimonials/reviews/Reviews.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/testimonials/header-orig.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/images/testimonials/header.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/testimonials/header.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +67,7 @@
       <workItem from="1636820030016" duration="855000" />
       <workItem from="1636838788989" duration="8000" />
       <workItem from="1637083106717" duration="45000" />
-      <workItem from="1638905213750" duration="9236000" />
+      <workItem from="1638905213750" duration="12891000" />
     </task>
     <servers />
   </component>

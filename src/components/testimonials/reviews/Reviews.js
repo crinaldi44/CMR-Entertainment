@@ -37,7 +37,7 @@ function Reviews(props) {
                 />
                 <ReviewEntry
                     name={'John & Terry'}
-                    rate={3}
+                    rate={5}
                     title={'Amazing!'}
                     comment={'John and I can\'t thank you enough! Chris and Joe were absolutely great and made our son\'s graduation party a huge success! The music that they played was perfect from start to finish! Our guests all commented on how much fun they had and how professional Chris and Joe were. We also had a great time singing Karaoke with our family and friends. They are memories that our son will have forever. See you at our next party.'}
                 />
