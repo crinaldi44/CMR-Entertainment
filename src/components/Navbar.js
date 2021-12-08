@@ -36,11 +36,11 @@ const Navbar = () => {
             <nav className={navSolid ? 'navbar active' : 'navbar'}>
                     <Link to="/" className="logo"><img src={logo} alt="Logo" /></Link>
                     <ul className={!showNav ? 'navMenu' : 'navMenu responsive'} onClick={toggleShowNavMenu}>
-                        <Link to="/">Home</Link>
-                        <Link to="/about">About Us</Link>
-                        <Link to="/services">Services</Link>
-                        <Link to="/testimonials">Testimonials</Link>
-                        <Link to="/">Contact Us</Link>
+                        <Link to="/">HOME</Link>
+                        <Link to="/about">ABOUT</Link>
+                        <Link to="/services">SERVICES</Link>
+                        <Link to="/testimonials">TESTIMONIALS</Link>
+                        <Link to="/">CONTACT US</Link>
                         <a href='http://www.cmrentertainmentplanning.com/'><Button text='CLIENT LOGIN'/></a>
                     </ul>
                     <button className="showMenuBtn" onClick={toggleShowNavMenu}><i className={showNav ? "fa fa-close" : "fa fa-bars"}></i></button>

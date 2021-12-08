@@ -1,5 +1,7 @@
 import React from 'react'
 import TestimonialsHeader from '../components/testimonials/TestimonialsHeader'
+import Reviews from '../components/testimonials/reviews/Reviews'
+import './Testimonials.css'
 
 
 /**
@@ -11,7 +13,10 @@ import TestimonialsHeader from '../components/testimonials/TestimonialsHeader'
 const Testimonials = () => {
 
     return(
-        <TestimonialsHeader/>
+        <div className='testimonial__page__container'>
+            <TestimonialsHeader/>
+            <Reviews/>
+        </div>
     )
 }
 

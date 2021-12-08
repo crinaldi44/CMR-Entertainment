@@ -1,0 +1,47 @@
+.review__entry__container {
+    width: 1fr;
+    min-height: 170px;
+    background-color: #F4F4F4;
+}
+
+.review__top__section {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    height: 70px;
+}
+
+.review__name__rate {
+    padding-left: 10px;
+}
+
+.review__content {
+    text-align: left;
+    padding: 0 20px 20px 20px;
+}
+
+p.review__content__title, p.review__content__paragraph {
+    padding: 0;
+    margin: 0;
+}
+
+p.review__content__paragraph {
+    font-size: 12px;
+}
+
+h3.initials {
+    color: #8E8E8E;
+    background-color: #C4C4C4;
+    display: inline;
+    border-radius: 100%;
+    padding: 10px 20px 10px 20px;
+    font-size: 25px;
+}
+
+p.name {
+    display: inline;
+    font-weight: 600;
+}

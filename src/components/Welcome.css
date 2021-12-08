@@ -37,4 +37,12 @@
     .welcome__subsection {
         flex-direction: column;
     }
+
+    .welcome__image {
+        order: 1;
+    }
+
+    .welcome__text {
+        order: 2;
+    }
 }

@@ -1,4 +1,5 @@
 import {React, useEffect, useState} from 'react';
+import Stars from './reviews/Stars'
 import './ReviewCard.css'
 
 /**
@@ -22,13 +23,7 @@ function ReviewCard(props) {
             <div className='imageWrapper' data-name={props.name}>
                 <img className='topReviewsImage' src={props.image}/>
             </div>
-            <div className='starRatings'>
-                <i className="fa fa-star" style={{opacity: stars >= 1 ? 1 : 0.5}}></i>
-                <i className="fa fa-star" style={{opacity: stars >= 2 ? 1 : 0.5}}></i>
-                <i className="fa fa-star" style={{opacity: stars >= 3 ? 1 : 0.5}}></i>
-                <i className="fa fa-star" style={{opacity: stars >= 4 ? 1 : 0.5}}></i>
-                <i className="fa fa-star" style={{opacity: stars >= 5 ? 1 : 0.5}}></i>
-            </div>
+            <Stars rate={4}/>
         </div>
     );
 }
