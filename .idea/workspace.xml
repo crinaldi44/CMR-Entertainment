@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fc2a098-e63d-4c14-a06d-3c7772cf1907" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/Contact.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +65,9 @@
       <workItem from="1637083106717" duration="45000" />
       <workItem from="1638905213750" duration="15479000" />
       <workItem from="1638922735223" duration="2107000" />
+      <workItem from="1639325098678" duration="40000" />
+      <workItem from="1639327029337" duration="904000" />
+      <workItem from="1639415370097" duration="1635000" />
     </task>
     <servers />
   </component>

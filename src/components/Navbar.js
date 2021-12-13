@@ -40,7 +40,7 @@ const Navbar = () => {
                         <Link to="/about">ABOUT</Link>
                         <Link to="/services">SERVICES</Link>
                         <Link to="/testimonials">TESTIMONIALS</Link>
-                        <Link to="/">CONTACT US</Link>
+                        <Link to="/contact">CONTACT US</Link>
                         <a href='http://www.cmrentertainmentplanning.com/'><Button text='CLIENT LOGIN'/></a>
                     </ul>
                     <button className="showMenuBtn" onClick={toggleShowNavMenu}><i className={showNav ? "fa fa-close" : "fa fa-bars"}></i></button>
