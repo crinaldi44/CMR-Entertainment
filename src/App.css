@@ -6,6 +6,26 @@
   --offgrey: rgb(153, 153, 153);
 }
 
+[data-type*='green'] {
+  background-color: #6CBF6F;
+}
+
+[data-type*='red'] {
+  background-color: #BF6C6C;
+}
+
+[data-type*='pending'] {
+  background-color: #E4A501;
+}
+
+[data-type*='new'] {
+  background-color: #BFAD6C;
+}
+
+[data-type*='holiday'] {
+  background: linear-gradient(107.14deg, #BF6C6C 38.91%, rgba(54, 238, 172, 0.85) 71.88%);
+}
+
 .App {
   text-align: center;
   font-family: "Montserrat", sans-serif;

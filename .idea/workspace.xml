@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fc2a098-e63d-4c14-a06d-3c7772cf1907" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/Contact.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contact.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +37,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -67,8 +67,17 @@
       <workItem from="1638922735223" duration="2107000" />
       <workItem from="1639325098678" duration="40000" />
       <workItem from="1639327029337" duration="904000" />
-      <workItem from="1639415370097" duration="1635000" />
+      <workItem from="1639415370097" duration="4336000" />
+      <workItem from="1639437634309" duration="7349000" />
     </task>
+    <task id="LOCAL-00001" summary="Added Contact page component with banner image.">
+      <created>1639418910826</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639418910826</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,5 +94,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Contact page component with banner image." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Contact page component with banner image." />
   </component>
 </project>
