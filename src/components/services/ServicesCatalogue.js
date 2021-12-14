@@ -16,9 +16,7 @@ const ServicesCatalogue = () => {
         width: `60%`,
         height: '300px',
     }
-
-    const comingSoon = '<h1>Coming Soon</h1>'
-
+    
     return (
         <div id="container" className="services__container__sub">
                 <div className="services__container__catalogue">
