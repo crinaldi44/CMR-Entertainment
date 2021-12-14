@@ -9,6 +9,11 @@
     color: var(--primary-color);
 }
 
+.form__container i {
+    font-size: 12px;
+    width: 50px;
+}
+
 .form__header {
     background-image: url('../../images/contact-header.png');
     background-repeat: no-repeat;
@@ -29,7 +34,7 @@
     font-size: 12px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 20px 20px 50px 20px;
 }
 
@@ -42,6 +47,10 @@
     height: 100px;
     resize: none;
     border-style: none;
+}
+
+.form__input {
+    min-width: 150px;
 }
 
 @media only screen and (max-width: 700px) {
