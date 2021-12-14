@@ -10,8 +10,6 @@ import './ReviewCard.css'
  */
 function ReviewCard(props) {
 
-    const [stars, setStars] = useState(4);
-
     useEffect(() => {
         fetch('https://mybusiness.googleapis.com/v4/accounts/{accountId}/locations/tMKiJ8dWtL1xsx1cA/reviews')
             .then(response => response.json())
