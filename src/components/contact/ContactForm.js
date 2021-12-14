@@ -23,7 +23,8 @@ function ContactForm(props) {
             </div>
             <div className='form__content'>
             <h2>Contact Info</h2>
-                <div className='form__entry'><label><i class='fa fa-user'></i>Full Name*</label>
+                <div className='form__entry'>
+                    <label><i class='fa fa-user'></i>Full Name*</label>
                         <input className='form__input' name="full_name" required={true} placeholder='Full name'></input>
                 </div>
                 <div className='form__entry'><label><i class='fa fa-envelope'></i>Email*</label>

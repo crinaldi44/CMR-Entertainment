@@ -7,10 +7,11 @@
     animation-fill-mode: forwards;
     animation-delay: 500ms;
     color: var(--primary-color);
+    border-radius: 2px;
 }
 
 .form__container i {
-    font-size: 12px;
+    font-size: 16px;
     width: 50px;
 }
 
@@ -28,10 +29,12 @@
     margin: 0;
     color: var(--offwhite);
     font-size: 22px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
 }
 
 .form__content {
-    font-size: 12px;
+    font-size: 14px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -51,6 +54,8 @@
 
 .form__input {
     min-width: 150px;
+    border-radius: 2px;
+    border-style: none;
 }
 
 @media only screen and (max-width: 700px) {
