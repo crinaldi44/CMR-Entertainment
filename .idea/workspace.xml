@@ -4,7 +4,6 @@
     <list default="true" id="0fc2a098-e63d-4c14-a06d-3c7772cf1907" name="Changes" comment="Added Contact page component with banner image.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/contact/ContactForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/ContactForm.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/ContactForm.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +67,8 @@
       <workItem from="1639327029337" duration="904000" />
       <workItem from="1639415370097" duration="4336000" />
       <workItem from="1639437634309" duration="7349000" />
+      <workItem from="1639761559016" duration="946000" />
+      <workItem from="1639778188254" duration="831000" />
     </task>
     <task id="LOCAL-00001" summary="Added Contact page component with banner image.">
       <created>1639418910826</created>
