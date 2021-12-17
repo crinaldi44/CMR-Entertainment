@@ -17,12 +17,9 @@ function ContactForm(props) {
 
     return (
         <form className='form__container' method={'post'} action='https://cmrentertainmentplanning.com/contactus.asp'>
-            
-            <div className='form__header'>
-                <h1>Contact Form</h1>
-            </div>
             <div className='form__content'>
-            <h2>Contact Info</h2>
+            <h1>How can we help?</h1>
+                <p className='form__header__paragraph'>Kindly feel free to complete the form below to speak with us directly!</p>
                 <div className='form__entry'>
                     <label>Full Name*</label>
                         <input className='form__input' name="full_name" required={true} placeholder='Full name'></input>
