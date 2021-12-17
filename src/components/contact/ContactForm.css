@@ -58,7 +58,9 @@
 .form__textarea {
     height: 100px;
     resize: none;
-    border-style: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #CDD4DE;
 }
 
 .form__input {
@@ -68,6 +70,9 @@
     height: 25px;
     padding-left: 10px;
     margin: 5px 0px 15px 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #CDD4DE;
 }
 
 select.form__select {
