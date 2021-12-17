@@ -24,19 +24,19 @@ function ContactForm(props) {
             <div className='form__content'>
             <h2>Contact Info</h2>
                 <div className='form__entry'>
-                    <label><i class='fa fa-user'></i>Full Name*</label>
+                    <label>Full Name*</label>
                         <input className='form__input' name="full_name" required={true} placeholder='Full name'></input>
                 </div>
-                <div className='form__entry'><label><i class='fa fa-envelope'></i>Email*</label>
+                <div className='form__entry'><label>Email*</label>
                         <input className='form__input' name="email" type={'email'} required={true} placeholder='Email address'></input>
                 </div>
-                <div className='form__entry'><label><i class='fa fa-phone'></i>Phone Number</label>
+                <div className='form__entry'><label>Phone Number</label>
                         <input className='form__input' type={'tel'} name="question_1" placeholder='Phone number'></input>
                 </div>
             <h2>Event Info</h2>
                 <div className='form__entry'>
-                        <label><i class='fa fa-book'></i>Type of Event*</label>
-                <select required={true} name={"question_3"}>
+                        <label>Type of Event*</label>
+                <select className='form__select' required={true} name={"question_3"}>
                         <option>Wedding</option>
                         <option>Bat/Bar Mitzvah</option>
                         <option>Formal</option>
@@ -46,11 +46,11 @@ function ContactForm(props) {
                 </select>
                 </div>
             <div className='form__entry'>
-                <label><i class='fa fa-pencil'></i>If other, please specify:</label>
+                <label>If other, please specify:</label>
                 <input className='form__input' name='question_4' placeholder='Details'></input>
             </div>
             <div className='form__entry'>
-                <label><i class='fa fa-calendar'></i>Date of Event</label>
+                <label>Date of Event</label>
                 <input className='form__input' type={'date'} name='question_2'></input>
             </div>
                 <label>Extra info for your event:</label>

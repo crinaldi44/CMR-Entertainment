@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fc2a098-e63d-4c14-a06d-3c7772cf1907" name="Changes" comment="">
+    <list default="true" id="0fc2a098-e63d-4c14-a06d-3c7772cf1907" name="Changes" comment="Added Contact page component with banner image.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact/ContactForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/ContactForm.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/ContactForm.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +45,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReaderModeSettings">
