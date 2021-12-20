@@ -5,14 +5,17 @@
 /* Typography/Configuration */
 .landing__container section h1 {
     font-size: 35px;
-    max-width: 360px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    width: 320px;
     margin: 0;
 }
 
 .landing__container section p {
     width: 440px;
     line-height: 1.28;
-    margin: 10px 0 10px 0;
+    margin: 10px 0 20px 0;
+    color: #939393;
 }
 
 .landing__container section img {
@@ -30,7 +33,6 @@
     justify-content: space-around;
     align-items: center;
     margin: auto;
-    padding: 0 80px 0 80px;
     text-align: left;
 }
 
@@ -51,6 +53,12 @@
 
     .landing__container > section {
         flex-direction: column;
+        padding: 30px 0 30px 0;
+        text-align: center;
+    }
+
+    .landing__container section h1 {
+        margin: auto;
     }
 
 }
