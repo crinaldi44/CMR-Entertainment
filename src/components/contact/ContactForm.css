@@ -1,6 +1,5 @@
 .form__container {
-    min-width: 50%;
-    margin: 30px;
+    min-width: 100%;
     background-color: #EFF0F3;
     opacity: 0;
     animation: slideup 300ms;
