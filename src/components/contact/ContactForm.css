@@ -10,6 +10,8 @@
     border-style: solid;
     border-color: #CDD4DE;
     border-width: 2px;
+    display: flex;
+    justify-content: center;
 }
 
 .form__container i {
