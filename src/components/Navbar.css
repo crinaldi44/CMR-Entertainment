@@ -54,6 +54,10 @@ nav img {
   vertical-align: center;
 }
 
+nav ul {
+  padding: 0;
+}
+
 @media screen and (max-width: 930px) {
   .navbar {
     justify-content: space-between;
@@ -71,7 +75,7 @@ nav img {
   .navMenu.responsive {
     display: flex;
     flex-direction: column;
-    padding: 70px 0px 0px 0px;
+    margin: 70px auto 0px auto;
   }
 
   .showMenuBtn {
