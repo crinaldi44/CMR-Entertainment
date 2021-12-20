@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fc2a098-e63d-4c14-a06d-3c7772cf1907" name="Changes" comment="Added Contact page component with banner image.">
+      <change afterPath="$PROJECT_DIR$/src/components/about/AboutGrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/about/AboutGrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/about/AboutLanding.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/about/AboutLanding.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/ContactForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/ContactForm.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/About.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +75,7 @@
       <workItem from="1639437634309" duration="7349000" />
       <workItem from="1639761559016" duration="946000" />
       <workItem from="1639778188254" duration="5602000" />
-      <workItem from="1639967267323" duration="826000" />
+      <workItem from="1639967267323" duration="8357000" />
     </task>
     <task id="LOCAL-00001" summary="Added Contact page component with banner image.">
       <created>1639418910826</created>
