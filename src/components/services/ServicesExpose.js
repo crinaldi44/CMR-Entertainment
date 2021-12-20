@@ -13,7 +13,7 @@ const ServicesExpose = () => {
                 <div className="expose__section1__description">
                         <h1>Customize Your Event.</h1>
                         <p>We provide a host of professional entertainment services and can accommodate any event! Mix and match services to make your event complete!</p>
-                        <Link to='/services/'><Button text="GET A QUOTE"/></Link>
+                        <Link to='/contact'><Button text="GET A QUOTE"/></Link>
                 </div>
                 <img src={Image1}/>
             </section>

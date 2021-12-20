@@ -9,7 +9,7 @@ const Footer = () => {
                     <ul>
                         <li><b>CONTACT</b></li>
                         <li>Phone: (609) 209-3027</li>
-                        <li>Email: chrisr@cmrentertainment.com</li>
+                        <li>Email: <a href='mailto: chrisr@cmrentertainment.com'>chrisr@cmrentertainment.com</a></li>
                     </ul>
                     <ul>
                         <b>SOCIAL</b>

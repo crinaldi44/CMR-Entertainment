@@ -1,0 +1,68 @@
+.landing__container {
+    background-color: white;
+}
+
+/* Typography/Configuration */
+.landing__container section h1 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #3F4257;
+    letter-spacing: -0.5px;
+    width: 320px;
+    margin: 0;
+}
+
+.landing__container section p {
+    font-size: 14px;
+    max-width: 440px;
+    line-height: 1.28;
+    margin: 10px 0 20px 0;
+    color: #939393;
+}
+
+.landing__container section img {
+    min-height: 50%;
+    max-width: 90%;
+    max-height: 450px;
+    margin: 0 30px 0 30px;
+    border-radius: 2px;
+}
+
+/* Each entry into the landing is an alternating flex box. */
+.landing__container > section {
+    min-height: 537px;
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    text-align: left;
+}
+
+/* Color every 'odd' child a blue-gray color. */
+.landing__container section:nth-of-type(even) {
+    background-color: #EEF0F3;
+}
+
+.last {
+    order: 2;
+}
+
+@media screen and (max-width: 900px) {
+
+    .last {
+        order: revert;
+    }
+
+    .landing__container > section {
+        flex-direction: column;
+        padding: 30px 0 30px 0;
+        text-align: center;
+    }
+
+    .landing__container section h1 {
+        margin: auto;
+    }
+
+}

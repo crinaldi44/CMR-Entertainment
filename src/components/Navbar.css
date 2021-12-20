@@ -54,7 +54,7 @@ nav img {
   vertical-align: center;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 930px) {
   .navbar {
     justify-content: space-between;
     height: auto;

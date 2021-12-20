@@ -7,8 +7,16 @@ const Button = (props) => {
     //Represents whether we are using the small or large version.
     const large = props.large;
 
+    const customColor = () => {
+        return props.color ? style : null;
+    }
+
+    const style = {
+        backgroundColor: props.color
+    }
+
     return (
-        <button className={large ? 'button large' : 'button'}>
+        <button id='btn' style={customColor()} className={large ? 'button large' : 'button'}>
             {props.text}
         </button>
     )
