@@ -14,7 +14,6 @@ const Testimonials = () => {
 
     return(
         <div className='testimonial__page__container'>
-            <TestimonialsHeader/>
             <Reviews/>
         </div>
     )
