@@ -14,7 +14,7 @@
 
 .landing__container section p {
     font-size: 14px;
-    width: 440px;
+    max-width: 440px;
     line-height: 1.28;
     margin: 10px 0 20px 0;
     color: #939393;
@@ -22,8 +22,8 @@
 
 .landing__container section img {
     min-height: 50%;
-    width: 400px;
-    height: 450px;
+    max-width: 90%;
+    max-height: 450px;
     margin: 0 30px 0 30px;
     border-radius: 2px;
 }
@@ -31,6 +31,7 @@
 /* Each entry into the landing is an alternating flex box. */
 .landing__container > section {
     min-height: 537px;
+    min-width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
