@@ -6,7 +6,7 @@
     animation: slideup 300ms;
     animation-fill-mode: forwards;
     animation-delay: 500ms;
-    color: var(--primary-co);
+    color: var(--primary-color);
     border-radius: 2px;
     border-style: solid;
     border-color: #CDD4DE;
