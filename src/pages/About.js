@@ -8,7 +8,7 @@ import AboutGrid from '../components/about/AboutGrid'
 const About = () => {
     return (
         <div className="about__container">
-            <Banner title="ABOUT US" details="Established in 1985. With over 20 years in the entertainment industry, we bring a modern twist on old school entertainment."
+            <Banner title="ABOUT US" details="Established in 1985. With over 30 years in the entertainment industry, we bring a modern twist on old school entertainment."
             image={AboutBanner}/>
             <AboutLanding/>
             <AboutGrid/>

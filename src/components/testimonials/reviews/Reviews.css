@@ -40,6 +40,6 @@ h3.reviews__header__title {
 
 @media only screen and (max-width: 800px) {
     .review__container {
-        width: 90%;
+        width: 100%;
     }
 }
