@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0fc2a098-e63d-4c14-a06d-3c7772cf1907" name="Changes" comment="Added Contact page component with banner image.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/AboutLanding.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/AboutLanding.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/about/AboutLanding.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/AboutLanding.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +69,7 @@
       <workItem from="1639437634309" duration="7349000" />
       <workItem from="1639761559016" duration="946000" />
       <workItem from="1639778188254" duration="5602000" />
-      <workItem from="1639967267323" duration="13304000" />
+      <workItem from="1639967267323" duration="13388000" />
     </task>
     <task id="LOCAL-00001" summary="Added Contact page component with banner image.">
       <created>1639418910826</created>

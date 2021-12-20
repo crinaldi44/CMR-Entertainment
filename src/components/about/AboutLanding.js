@@ -3,6 +3,7 @@ import './AboutLanding.css'
 import History from '../../images/about/history.png'
 import BusinessModel from '../../images/about/business-model.png'
 import Button from '../../components/Button'
+import {Link} from 'react-router-dom'
 
 /**
  * The AboutLanding component represents a simple alternating flex box component that contains a
@@ -28,7 +29,9 @@ const AboutLanding = () => {
                 <div className='landing__text'>
                     <h1>High-energy, highly engaging.</h1>
                     <p>We understand that months, even years of planning go into your special event. That’s why we ensure that we properly staff your event with our highest-energy event specialists. Our business model is centered around having fun and enjoying what we do. Our entertainment providers will engage with your guests to keep the beat going.</p>
-                    <Button text="Contact us" color='#3F4257'/>
+                    <Link to='/contact'>
+                        <Button text="Contact us" color='#3F4257'/>
+                    </Link>
                 </div>
             </section>
         </div>
