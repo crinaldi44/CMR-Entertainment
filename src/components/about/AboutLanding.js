@@ -28,7 +28,7 @@ const AboutLanding = () => {
                 <div className='landing__text'>
                     <h1>High-energy, highly engaging.</h1>
                     <p>We understand that months, even years of planning go into your special event. That’s why we ensure that we properly staff your event with our highest-energy event specialists. Our business model is centered around having fun and enjoying what we do. Our entertainment providers will engage with your guests to keep the beat going.</p>
-                    <Button text="Contact us" color='#ff33ff'/>
+                    <Button text="Contact us" color='#3F4257'/>
                 </div>
             </section>
         </div>
