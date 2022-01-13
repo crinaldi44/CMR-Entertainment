@@ -12,7 +12,7 @@ const Announcement = (props) => {
     return (
         <div className="announcement__container" style={isActive ? {display: 'block'} : {display: 'none'}}>
             {props.content}
-            <button className="announcement__close_btn" 
+            <button className="announcement__close_btn"
             onClick={handleClose}><i className="fa fa-close "></i></button>
         </div>
     )

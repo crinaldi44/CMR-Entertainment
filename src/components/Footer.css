@@ -49,6 +49,11 @@ a.footer__link {
   text-align: right;
 }
 
+.footer__watermark {
+  margin: 0;
+  padding: 0 0 15px 0;
+}
+
 @media screen and (max-width: 600px) {
   .footer__menu {
     flex-direction: column;

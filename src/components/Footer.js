@@ -28,7 +28,7 @@ const Footer = () => {
                         <li>LICENSE</li>
                     </ul>
                 </div>
-                <p>CMR Entertainment ©2021 | Designed by <a className='footer__link' href='http://rinaldi.netlify.app/'>Chris R</a></p>
+                <p className='footer__watermark'>CMR Entertainment ©2021 | Designed by <a className='footer__link' href='http://rinaldi.netlify.app/'>Chris R</a></p>
             </div>
     )
 }
