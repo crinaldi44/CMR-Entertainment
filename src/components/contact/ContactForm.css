@@ -1,10 +1,6 @@
 .form__container {
     min-width: 100%;
     background-color: #EFF0F3;
-    opacity: 0;
-    animation: slideup 300ms;
-    animation-fill-mode: forwards;
-    animation-delay: 500ms;
     color: var(--primary-color);
     border-radius: 2px;
     border-style: solid;
