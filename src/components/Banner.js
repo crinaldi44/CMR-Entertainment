@@ -5,7 +5,8 @@ import Background from '../images/wedding-photo.png';
 const Header = (props) => {
 
     const backgroundStyle = {
-        backgroundImage: `url(${props.image ? props.image : Background})`
+        backgroundImage: `url(${props.image ? props.image : Background})`,
+        height: `${props.height ? props.height : '100%'}`
     }
 
     return (

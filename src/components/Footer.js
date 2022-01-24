@@ -1,6 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import {Link} from 'react-router'
+import logo from '../images/logo.png'
 
 const Footer = () => {
     return (
@@ -28,7 +29,11 @@ const Footer = () => {
                         <li>LICENSE</li>
                     </ul>
                 </div>
-                <p className='footer__watermark'>CMR Entertainment ©2021 | Designed by <a className='footer__link' href='http://rinaldi.netlify.app/'>Chris R</a></p>
+                <p className='footer__watermark'>
+                    <img src={logo} style={{maxWidth: "175px", marginBottom: '20px'}}/>
+                    <br/>
+                    CMR Entertainment ©2021 | Designed by <a className='footer__link' href='http://rinaldi.netlify.app/'>Chris R</a>
+                </p>
             </div>
     )
 }

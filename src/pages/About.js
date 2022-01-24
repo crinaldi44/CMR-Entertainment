@@ -9,7 +9,7 @@ const About = () => {
     return (
         <div className="about__container">
             <Banner title="ABOUT US" details="Established in 1985. With over 30 years in the entertainment industry, we bring a modern twist on old school entertainment."
-            image={AboutBanner}/>
+            image={AboutBanner} height='615px'/>
             <AboutLanding/>
             <AboutGrid/>
         </div>

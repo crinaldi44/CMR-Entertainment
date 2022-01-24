@@ -1,11 +1,12 @@
 .footer__container {
   background-color: var(--primary-color);
-  height: fit-content;
+  min-height: 300px;
   padding-top: 20px;
   color: var(--offwhite);
   font-weight: 300;
   letter-spacing: 1px;
   font-size: 90%;
+  padding-bottom: 20px;
 }
 
 .footer__menu {
@@ -47,8 +48,7 @@ a.footer__link {
 }
 
 .footer__watermark {
-  margin: 0;
-  padding: 0 0 15px 0;
+  margin-top: 50px;
 }
 
 @media screen and (max-width: 600px) {
